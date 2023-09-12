@@ -6,11 +6,15 @@ head {
      width: auto;
 }
 
+/* header */
 header {
   text-transform: capitalize;
   text-align: center;
   color:#fff;
+  font-weight: 600;
 }
+
+/* body */
 body {
      background-color: #2e1e1e;
      font-family: 'Open Sans', sans-serif;
@@ -18,19 +22,46 @@ body {
      width: auto;
 }
 
+/* introduction section */
 .rosini-personal {
      background-color: #FFDBAA;
-     padding: 60px;
-}
-
-.profile {
-     background-color: #FFDBAA;
-     padding: 30px;
+     padding: 20px;
 }
 
 .intro img {
-     float: left;
-     margin-right: 30px;
+     width:fit-content;
+     height: 200;
+}
+
+.intro {
+     margin: 50px;
+     text-transform: uppercase;
+     text-align: center;
+}
+
+.intro h1{
+     font-size: larger;
+     color:#2e1e1e;
+     font-weight: 800;
+}
+
+.intro h2{
+     font-size: medium;
+     color:#2e1e1e;
+     font-weight: 500;
+}
+
+.contact {
+     display:flex;
+     justify-content: space-evenly;
+     margin-left: 50px;
+}
+
+
+/* profile section */
+.profile {
+     background-color: #FFDBAA;
+     padding: 20px;
 }
 
 .profile ul {
@@ -38,49 +69,83 @@ body {
      line-height: 50px;
 }
 
-.intro {
-     float: left;
-     margin-right: 300px;
-     text-align: center;
-     text-transform: uppercase;
-     padding-bottom: 10px;
-     display: flex;
-}
-.intro ul{
-     list-style-type: none;
-     text-align:center;
-     margin-top: 60px;
-     padding-bottom: 20px;
-}
 
-.contact {
-     float: bottom;
-     margin-left: 50px;
-     padding: 10px;
-}
-
+/* talent section */
 .talent {
      background-color: #FFDBAA;
+     display: flex;
+     justify-content: space-evenly;
+     padding: 20px;
 }
 
-.skills {
-     padding: 30px;
-     float: right;
-     margin-right: 160px;
-     justify-content: space-between;
+.skills h3{
+     margin: 30px 30px 30px 60px;
+     text-align: center;
 }
 
-.skills> img{
-     margin: 10px;
+.skills ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+
 }
 
-.language {
-     padding: 30px;
-     margin-left: 80px;
+.language h4{
+     text-align: center;
+     margin: 30px;
+}
+
+.progress-bar-container:not(:last-child){
+     margin-bottom:50px;
+}
+
+.progress-bar-container h5{
+     letter-spacing: 1px;
+     color:#2e1e1e;
+     font-size: 20px;
+}
+
+.progress-bar {
+     width: 200px;
+     height: 5px;
+     margin-top: 10px;
+     border: 1px solid #2e1e1e;
+     border-radius: 5px;
+     color:#2e1e1e;
+ }
+
+ .percentage {
+     display: block;
+     height: 100%;
+     border-radius: 5px;
+ }
+
+ .English{
+     width: 96%;
+ }
+
+ .hindi{
+     width: 45%;
+ }
+
+ .tamil{
+     width:100%
+ }
+/* footer */
+footer{
+     text-align: center;
+     padding: 20px;
+     background-color: #FFDBAA;
 }
 
 footer> button {
      border-style:groove;
      background-color: transparent;
-     color:#fff;
+     color: #2e1e1e;
+     text-align: center;
+}
+
+footer> button:hover{
+     background-color: #78511a;
+     cursor: pointer;
 }
