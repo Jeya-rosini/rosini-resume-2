@@ -186,7 +186,7 @@ hr {
      display: block;
      height: 100%;
      border-radius: 5px;
-     background-color: #78511a;
+     background-color: #071952;
  }
 
 .html5{
@@ -244,7 +244,7 @@ hr {
      display: block;
      height: 100%;
      border-radius: 5px;
-     background-color: #78511a;
+     background-color: #071952;
  }
 
  .English{
@@ -275,6 +275,7 @@ hr {
      align-items: center;
      padding: 20px;
      margin:20px;
+     font-weight: 90px;
  }
 
 /* footer */
