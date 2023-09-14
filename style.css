@@ -7,7 +7,7 @@
      box-sizing: border-box;
 }
 
-@media screen and (max-width: auto) .container {
+@media screen and (max-width: auto).container {
     grid-template-columns: 1fr;
 }
 
@@ -146,22 +146,27 @@ hr {
  }
 
 /* skill section */
-.container-talent{
-     margin: 30px;
+.flex-container {
+     margin: 40px;
      color:#071952;
      padding: 20px;
+     display: flex;
+     justify-content: center;
 }
 
 .skills{
-     margin: 30px 30px 30px 70px;
+     margin: 40px;
      padding: 20px;
-     float:left;
 }
 
 .skills h3{
      margin: 10px;
      color: #071952;
      font-size: 20px;
+}
+
+.skills .fa-html5,.fa-css3,.fa-chart-area,.fa-flask-vial{
+     font-size:30px;
 }
 
 .progress-bar-container:not(:last-child){
@@ -171,7 +176,7 @@ hr {
 .progress-bar-container h5{
      letter-spacing: 1px;
      color: #071952;
-     font-size: 15px;
+     font-size: 30px;
 }
 
 .progress-bar {
@@ -206,14 +211,14 @@ hr {
 }
 
 .language{
-     margin: 30px 70px 30px 30px;
+     margin: 40px;
      padding: 20px;
-     float: right;
 }
+
 .language h4{
-     margin: 0px;
+     margin: 0px 10px 10px 10px;
      color:#071952;
-     padding-top: 9px;
+     padding-top:9px;
      font-size: 20px;
 }
 
@@ -262,20 +267,35 @@ hr {
  .interest{
      color:#071952;
      padding:20px;
-     margin: 20px;
+     margin: 40px;
+ }
+
+ .Interest .fa-signature, .fa-recycle, .fa-wand-magic-sparkles {
+     font-size: 30px;
+ }
+
+ .Interest .fa-signature {
+     margin: 0 auto;
+ }
+
+ .Interest .fa-recycle {
+     margin: 0 auto;
+ }
+
+ .Interest .fa-wand-magic-sparkles {
+     margin: 0 auto;
  }
 
  .interest h4{
      font-size: 20px;
-     text-align:center;
-     margin-top: 20px;
+     margin-top:10px;
  }
 
  .interest i{
-     align-items: center;
      padding: 20px;
      margin:20px;
-     font-weight: 90px;
+     display: flex;
+     flex-direction: column;
  }
 
 /* footer */
