@@ -14,7 +14,8 @@ Tech Used: HTML 5,CSS 3
 3, Live link
 
 4, Source Code
-## Screenshot:
-c:\Users\DELL\Desktop\Internship\rosini-resume-2\Assets\Rosini Resume.gif
+## Screenshot
+
+![Rosini Resume.gif](<Rosini Resume.gif>)
 
 Thank you, you can download my resume and contact me anytime.
