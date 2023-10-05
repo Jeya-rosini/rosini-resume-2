@@ -15,6 +15,6 @@ Tech Used: HTML 5,CSS 3
 
 4, Source Code
 ## Screenshot:
-![Resume](<Rosini Resume.gif>)
+![Resume](<./Assets/Rosini Resume.gif>)
 
 Thank you, you can download my resume and contact me anytime.
