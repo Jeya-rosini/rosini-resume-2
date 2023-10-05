@@ -1,7 +1,7 @@
 # Jeya Rosini Web-Resume 
 Resume was created using HTML and CSS with all true information. The resume is responsive too. You can see for yourself
 
-For live : https://github.com/Jeya-rosini/rosini-resume-2
+For live :
 
 Author: Jeya Rosini.H
 
